@@ -1,0 +1,55 @@
+#default {
+	background-color: yellow;
+	font-family: Arial, sans-serif;
+	font-size: 12px
+}
+#wrapper {
+	display: block;
+	width: 98%;
+	margin: 10px auto;
+	height: 98%;
+	border-color: black;
+	border-style: double;
+}
+#header {
+	height: 110px;
+	border-bottom-color: Green;
+	border-bottom-width: thick;
+	border-bottom-style: inset
+	background-color: red;
+} 
+#Container {
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%
+}
+ #content {
+	display: table;
+	margin-top: 2%;
+	width: 100%;
+	background: transparent;
+	overflow: auto;
+	-webkit-border-radius: 3ex;
+	-moz-border-radius: 3ex
+}
+ #news {
+	float: right;
+	width: 75%;
+	left: 102%
+}
+ #readingPane {
+	display: block;
+	border-width: 2px;
+	border-style: inset;
+	border-color: white;
+	width: 21%;
+	-webkit-border-radius: 1ex;
+	-moz-border-radius: 1ex;
+	margin-right: 12px;
+	margin-left: 1%;
+	margin-top: 1%;
+	float: right;
+	color: Green;
+	text-align: center
+}
+ 

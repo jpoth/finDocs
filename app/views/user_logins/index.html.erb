@@ -1,0 +1,29 @@
+<h1>Listing user_logins</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Password</th>
+    <th>Date Created</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @user_logins.each do |user_login| %>
+  <tr>
+    <td><%= user_login.name %></td>
+    <td><%= user_login.password %></td>
+    <td><%= user_login.dateCreated %></td>
+    <td><%= user_login.Email %></td>
+    <td><%= link_to 'Show', user_login %></td>
+    <td><%= link_to 'Edit', edit_user_login_path(user_login) %></td>
+    <td><%= link_to 'Destroy', user_login, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New User login', new_user_login_path %>

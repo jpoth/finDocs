@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  startDate: 2013-03-03
+  endDate: 2013-03-03
+  AmtInvested: 1.5
+
+two:
+  name: MyString
+  startDate: 2013-03-03
+  endDate: 2013-03-03
+  AmtInvested: 1.5

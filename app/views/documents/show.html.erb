@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @document.name %>
+</p>
+
+<p>
+  <b>Start Date:</b>
+  <%= @document.startDate %>
+</p>
+
+<p>
+  <b>End Date:</b>
+  <%= @document.endDate %>
+</p>
+
+<p>
+  <b>Amount Invested:</b>
+  <%= @document.AmtInvested %>
+</p>
+
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>
